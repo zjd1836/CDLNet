@@ -20,5 +20,5 @@ pages = {103276},
 year = {2025},
 issn = {1566-2535},
 doi = {https://doi.org/10.1016/j.inffus.2025.103276},
-author = {Jindou Zhang and Ruiqian Zhang and Xiao Huang and Zhizheng Zhang and Bowen Cai and Xianwei Lv and Zhenfeng Shao and Deren Li}
+author = {Jindou Zhang and Ruiqian Zhang and Xiao Huang and Zhizheng Zhang and Bowen Cai and Xianwei Lv and Zhenfeng Shao and Deren Li},
 }
