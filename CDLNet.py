@@ -16,7 +16,7 @@ class CDLNet(nn.Module):
     def __init__(self, n_classes=7):
         super(CDLNet, self).__init__()
         self.encoder = MobileViTv3_v1(image_size=(512, 512), mode='small', isThree=True)
-        self.encoder.load_pretrained_model('./weight/checkpoint_ema_best.pt')
+        self.encoder.load_pretrained_model('https://drive.google.com/file/d/1u6XFrSzYxhta5ZURia_ewMQan5uSCXLs/view?usp=drive_link')
         self.conv1 = RFAConv(128, 128, 3, 1)
         self.conv2 = RFAConv(256, 256, 3, 1)
         self.conv3 = RFAConv(320, 320, 3, 1)
